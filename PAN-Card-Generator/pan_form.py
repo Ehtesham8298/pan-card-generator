@@ -5,7 +5,7 @@ import io, os
 
 app = Flask(__name__)
 
-TEMPLATE_PDF  = os.path.join(os.path.dirname(__file__), "Pan Card Output2.pdf")
+TEMPLATE_PDF  = os.path.join(os.path.dirname(__file__), "templates", "Pan Card Output2.pdf")
 
 PHOTO_RECT    = fitz.Rect(18.5, 68.0, 65.5, 115.2)
 NAME_POS      = (24, 135)
